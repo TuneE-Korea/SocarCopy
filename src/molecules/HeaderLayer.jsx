@@ -1,5 +1,5 @@
-import LogoBox from "../Atom/LogoBox";
-import MenuButton from "../Atom/MenuButton";
+import LogoBox from "../atom/LogoBox";
+import MenuButton from "../atom/MenuButton";
 
 const HeaderLayer = () => {
   return (

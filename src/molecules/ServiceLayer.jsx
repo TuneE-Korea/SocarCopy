@@ -1,4 +1,4 @@
-import CaptionText from "../Atom/CaptionText";
+import CaptionText from "../atom/CaptionText";
 import ServiceCard from "../atom/ServiceCard";
 const ServiceLayer = ({ before, after }) => {
   return (

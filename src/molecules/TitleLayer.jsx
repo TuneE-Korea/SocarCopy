@@ -1,6 +1,6 @@
-import VideoBox from "../Atom/VideoBox";
-import InstallButton from "../Atom/InstllButton";
-import StaggerTitle from "../Atom/StaggerTitle";
+import VideoBox from "../atom/VideoBox";
+import InstallButton from "../atom/InstllButton";
+import StaggerTitle from "../atom/StaggerTitle";
 const TitleLayer = () => {
   return (
     <>

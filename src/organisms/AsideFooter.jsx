@@ -1,4 +1,4 @@
-import AsideButton from "../Atom/AsideButton";
+import AsideButton from "../atom/AsideButton";
 const AsideFooter = ({ source }) => {
   return (
     <section

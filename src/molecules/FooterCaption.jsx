@@ -1,5 +1,5 @@
-import FooterText from "../Atom/FooterText";
-import FooterTitle from "../Atom/FooterTitle";
+import FooterText from "../atom/FooterText";
+import FooterTitle from "../atom/FooterTitle";
 const FooterCaption = () => {
   return (
     <>

@@ -1,6 +1,6 @@
-import FooterText from "../Atom/FooterText";
-import FooterTitle from "../Atom/FooterTitle";
-import SocialIconButton from "../Atom/SocialIconButton";
+import FooterText from "../atom/FooterText";
+import FooterTitle from "../atom/FooterTitle";
+import SocialIconButton from "../atom/SocialIconButton";
 
 const FooterAdressLayer = () => {
   return (
