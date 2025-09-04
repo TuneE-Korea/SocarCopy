@@ -1,6 +1,6 @@
 import TitleLayer from "../molecules/TitleLayer";
 import CaptionLayer from "../molecules/CaptionLayer";
-import Serviece from "../molecules/ServiceLayer";
+import ServieceLayer from "../molecules/ServiceLayer";
 
 const MainContent = () => {
   const hidden = { opacity: 0, y: 50 };
@@ -9,7 +9,7 @@ const MainContent = () => {
     <>
       <TitleLayer before={hidden} after={show} />
       <CaptionLayer />
-      <Serviece before={hidden} after={show} />
+      <ServieceLayer before={hidden} after={show} />
     </>
   );
 };
