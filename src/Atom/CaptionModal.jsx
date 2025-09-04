@@ -12,19 +12,19 @@ const CaptionModal = () => {
     exit: {},
   };
 
-  const item = {
-    hidden: { opacity: 0, x: "100%" }, // 오른쪽에서 시작
-    visible: {
-      opacity: 1,
-      x: "0%", // 중앙으로 이동
-      transition: { duration: 0.6, ease: easeOut },
-    },
-    exit: {
-      opacity: 0,
-      x: "-100%", // 왼쪽으로 퇴장
-      transition: { duration: 0.6, ease: easeIn },
-    },
-  };
+  // const item = {
+  //   hidden: { opacity: 0, x: "100%" }, // 오른쪽에서 시작
+  //   visible: {
+  //     opacity: 1,
+  //     x: "0%", // 중앙으로 이동
+  //     transition: { duration: 0.6, ease: easeOut },
+  //   },
+  //   exit: {
+  //     opacity: 0,
+  //     x: "-100%", // 왼쪽으로 퇴장
+  //     transition: { duration: 0.6, ease: easeIn },
+  //   },
+  // };
 
   return (
     <>
