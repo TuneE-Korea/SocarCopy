@@ -1,7 +1,7 @@
 import TitleLayer from "../molecules/TitleLayer";
 import CaptionLayer from "../molecules/CaptionLayer";
 import ServieceLayer from "../molecules/ServiceLayer";
-
+// 후..
 const MainContent = () => {
   const hidden = { opacity: 0, y: 50 };
   const show = { opacity: 1, y: 0 };
