@@ -10,7 +10,7 @@ const CaptionModal = () => {
     },
     exit: {},
   };
-  //fds
+  //fdsfsdf
   // const item = {
   //   hidden: { opacity: 0, x: "100%" }, // 오른쪽에서 시작
   //   visible: {
