@@ -1,4 +1,4 @@
-import CaptionModal from "../atom/CaptionModal";
+import CaptionModal from "../Atom/CaptionModal";
 import StaggerCaption from "../Atom/StaggerCaption";
 const CaptionLayer = () => {
   return (
