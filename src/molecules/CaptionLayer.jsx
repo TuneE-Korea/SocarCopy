@@ -1,4 +1,3 @@
-import CaptionModal from "../atom/CaptionModal";
 import StaggerCaption from "../atom/StaggerCaption";
 const CaptionLayer = () => {
   return (
@@ -14,7 +13,7 @@ const CaptionLayer = () => {
                 fontStyle2={"font-bold"}
               />
               <div className="w-full">
-                <CaptionModal></CaptionModal>
+                {/* <CaptionModal></CaptionModal> */}
               </div>
             </div>
           </div>

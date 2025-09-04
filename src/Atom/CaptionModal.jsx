@@ -1,5 +1,4 @@
 import { easeIn, easeOut, motion, stagger } from "framer-motion";
-
 const CaptionModal = () => {
   const container = {
     hidden: {},
