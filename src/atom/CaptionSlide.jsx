@@ -1,32 +1,31 @@
 import { easeIn, easeOut, motion, stagger } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Fullscreen } from "lucide-react";
 
 const CaptionSlide = () => {
-  const container = {
-    hidden: {},
-    visible: {
-      transition: {
-        staggerChildren: 2, // 2초 간격으로 순차 실행
-        delayChildren: 0.5,
-      },
-    },
-    exit: {},
-  };
-  const item = {
-    hidden: { opacity: 0, x: "100%" }, // 오른쪽에서 시작
-    visible: {
-      opacity: 1,
-      x: "0%", // 중앙으로 이동
-      transition: { duration: 0.6, ease: easeOut },
-    },
-    exit: {
-      opacity: 0,
-      x: "-100%", // 왼쪽으로 퇴장
-      transition: { duration: 0.6, ease: easeIn },
-    },
-  };
+  // const container = {
+  //   hidden: {},
+  //   visible: {
+  //     transition: {
+  //       staggerChildren: 2, // 2초 간격으로 순차 실행
+  //       delayChildren: 0.5,
+  //     },
+  //   },
+  //   exit: {},
+  // };
+  // const item = {
+  //   hidden: { opacity: 0, x: "100%" }, // 오른쪽에서 시작
+  //   visible: {
+  //     opacity: 1,
+  //     x: "0%", // 중앙으로 이동
+  //     transition: { duration: 0.6, ease: easeOut },
+  //   },
+  //   exit: {
+  //     opacity: 0,
+  //     x: "-100%", // 왼쪽으로 퇴장
+  //     transition: { duration: 0.6, ease: easeIn },
+  //   },
+  // };
 
   return (
     <>
@@ -37,43 +36,36 @@ const CaptionSlide = () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         {/*img태그가 아니라 background-url을 써야할 것 같다..*/}
-        <SwiperSlide className="absolute inset-0 bg-cover bg-center">
-          <img
-            className="w-full h-full rounded-md"
-            src="/image/photo7.jpg"
-            alt=""
-          />
+        <SwiperSlide className="h-full rounded-md bg-center bg-cover bg-slideImg1">
+          {/* div 태그 안에 width, height 설정 안해주면 배경이미지의 크기만큼 나타나지 않음(컨텐츠만큼만 보임)...ㅎㅎ */}
+          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl">
+            1. test입니다!
+          </div>
         </SwiperSlide>
-        <SwiperSlide className="absolute inset-0 bg-cover bg-center">
-          <img
-            className="w-full h-full rounded-md"
-            src="/image/photo8.jpg"
-            alt=""
-          />
+        <SwiperSlide className="h-full rounded-md bg-center bg-cover bg-slideImg2">
+          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl">
+            2. test입니다!
+          </div>
         </SwiperSlide>
-        <SwiperSlide className="absolute inset-0 bg-cover bg-center">
-          <img
-            className="w-full h-full rounded-md"
-            src="/image/photo9.jpg"
-            alt=""
-          />
+        <SwiperSlide className="h-full rounded-md bg-center bg-cover bg-slideImg3">
+          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl">
+            3. test입니다!
+          </div>
         </SwiperSlide>
-        <SwiperSlide className="absolute inset-0 bg-cover bg-center">
-          <img
-            className="w-full h-full rounded-md"
-            src="/image/photo10.jpg"
-            alt=""
-          />
+        <SwiperSlide className="h-full rounded-md bg-center bg-cover bg-slideImg4">
+          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl">
+            4. test입니다!
+          </div>
         </SwiperSlide>
       </Swiper>
-      <motion.section
+      {/* <motion.section
         variants={container}
         initial="hidden"
         animate="visible"
         className="relative w-full h-96 overflow-hidden rounded-md"
-      >
-        {/* 진행 표시 점들 */}
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+      > */}
+      {/* 진행 표시 점들 */}
+      {/* <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
           <motion.div
             className="w-2 h-2 bg-white bg-opacity-50 rounded-full"
             animate={{
@@ -115,7 +107,7 @@ const CaptionSlide = () => {
             }}
           />
         </div>
-      </motion.section>
+      </motion.section> */}
     </>
   );
 };
