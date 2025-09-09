@@ -2,6 +2,7 @@ import FooterContent from "./organisms/FooterContent";
 import MainContent from "./organisms/MainContent";
 import AsideFooter from "./organisms/AsideFooter";
 import HeaderContent from "./organisms/HeaderContent";
+// 테스트
 function App() {
   return (
     <>
