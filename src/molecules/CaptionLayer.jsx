@@ -1,12 +1,12 @@
 import StaggerCaption from "../atom/StaggerCaption";
-import CaptionModal from "../atom/CaptionModal";
+import CaptionSlide from "../atom/CaptionSlide";
 const CaptionLayer = () => {
   return (
     <>
       <section className="w-full h-screen bg-SecondSectionC flex justify-center items-center gap-0">
         <div className="w-full max-w-5xl max-md:px-4 flex flex-col items-start">
           <div className="w-full flex flex-col items-center">
-            <div className="w-full h-fit flex flex-col items-start">
+            <div className="mt-96 w-full h-fit flex flex-col items-start">
               <StaggerCaption
                 content1={"차가 필요한 모든 순간"}
                 fontStyle1={"font-medium"}
@@ -14,7 +14,7 @@ const CaptionLayer = () => {
                 fontStyle2={"font-bold"}
               />
               <div className="w-full">
-                <CaptionModal></CaptionModal>
+                <CaptionSlide></CaptionSlide>
               </div>
             </div>
           </div>
