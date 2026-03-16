@@ -1,4 +1,3 @@
-import { easeIn, easeOut, motion, stagger } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
@@ -38,24 +37,16 @@ const CaptionSlide = () => {
         {/*img태그가 아니라 background-url을 써야할 것 같다..*/}
         <SwiperSlide className="h-full rounded-md bg-center bg-cover bg-slideImg1">
           {/* div 태그 안에 width, height 설정 안해주면 배경이미지의 크기만큼 나타나지 않음(컨텐츠만큼만 보임)...ㅎㅎ */}
-          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl">
-            1. test입니다!
-          </div>
+          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl"></div>
         </SwiperSlide>
         <SwiperSlide className="h-full rounded-md bg-center bg-cover bg-slideImg2">
-          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl">
-            2. test입니다!
-          </div>
+          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl"></div>
         </SwiperSlide>
         <SwiperSlide className="h-full rounded-md bg-center bg-cover bg-slideImg3">
-          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl">
-            3. test입니다!
-          </div>
+          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl"></div>
         </SwiperSlide>
         <SwiperSlide className="h-full rounded-md bg-center bg-cover bg-slideImg4">
-          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl">
-            4. test입니다!
-          </div>
+          <div className="flex justify-center items-center w-[1024px] h-[495px] text-red-500 text-7xl"></div>
         </SwiperSlide>
       </Swiper>
       {/* <motion.section
