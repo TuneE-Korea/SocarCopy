@@ -1,4 +1,4 @@
-import { motion, stagger } from "framer-motion";
+import { stagger } from "framer-motion";
 const StaggerTest = () => {
   const container = {
     hidden: {},
