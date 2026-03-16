@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const StaggerCaption = ({ content1, content2, fontStyle1, fontStyle2 }) => {
   const container = {
     hidden: {},
